@@ -84,13 +84,69 @@ footer {
 
 
 h1 {
-  font-family: 'open sans800';
+  font-family: 'open sans';
+  font-weight: 800;
   font-size: 24px;
+  text-align: left;
+  padding: 2em;
 }
 
 h2 {
-  font-family: open-sans600;
+  font-family: 'open sans';
+  font-weight: 600;
   font-size: 24px;
+  text-align: center;
 }
 
+header button {
+  font-family: 'open sans';
+  font-weight: 800;
+  font-size: 14px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f9e42e;
+  margin: 2em;
+}
 
+h3 {
+  font-family: 'open sans';
+  font-weight: 600;
+  font-size: 20px;
+  text-align: 2em;
+}
+
+p {
+  font-family: 'open sans';
+  font-weight: 300;
+  font-size: 13px;
+}
+
+ul {
+  font-family: 'open sans';
+  font-weight: 300;
+  font-size: 13px;
+}
+
+blockquote {
+  font-family: 'open sans';
+  font-weight: 300italic;
+  font-size: 18px;
+}
+
+.benifits {
+
+  background-color: white;
+  padding: 2em;
+}
+
+.SignUp {
+  background-color: #3498db;
+  padding: 1em;
+  text-align: center;
+}
+
+.button {
+  font-size: 3em;
+  color: white;
+  background: #3498db;
+}
