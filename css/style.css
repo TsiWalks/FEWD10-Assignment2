@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,800);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,800,600,800italic,700italic,700,600italic,400italic);
 
 /*
 Project Name: Blank Template
@@ -89,6 +89,7 @@ h1 {
   font-size: 24px;
   text-align: left;
   padding: 2em;
+  color: white;
 }
 
 h2 {
@@ -96,6 +97,7 @@ h2 {
   font-weight: 600;
   font-size: 24px;
   text-align: center;
+  color: white;
 }
 
 header button {
@@ -103,9 +105,11 @@ header button {
   font-weight: 800;
   font-size: 14px;
   border-radius: 5px;
+  border-color: #f9e42e;
   text-align: center;
   background-color: #f9e42e;
   margin: 2em;
+  color: #043048
 }
 
 h3 {
@@ -113,24 +117,46 @@ h3 {
   font-weight: 600;
   font-size: 20px;
   text-align: 2em;
+  color: #003048;
 }
 
 p {
   font-family: 'open sans';
   font-weight: 300;
   font-size: 13px;
+  color: #626160;
 }
 
 ul {
   font-family: 'open sans';
   font-weight: 300;
   font-size: 13px;
+  color: #626160;
 }
 
 blockquote {
   font-family: 'open sans';
   font-weight: 300italic;
   font-size: 18px;
+  color: white;
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+  color: white;
+}
+blockquote:after {
+  color: #ccc;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+  color: white;
 }
 
 .benifits {
@@ -140,13 +166,53 @@ blockquote {
 }
 
 .SignUp {
-  background-color: #3498db;
-  padding: 1em;
+  background-color: #f9e42e;
+  padding: 1.5em;
   text-align: center;
+  clear: both;
 }
 
 .button {
-  font-size: 3em;
+  font-size: 12px;
+  font-family: 'open sans';
+  font-weight: 800;
+  border-radius: 5px;
+  border-color: #043049;
   color: white;
-  background: #3498db;
+  background: #043049;
+
+}
+.getnow {
+  text-align: center;
+}
+
+.quote {
+  font-family: 'open sans';
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+}
+
+footer h1 {
+  color: #f9e42e;
+  text-align: center;
+  vertical-align: justify;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  vertical-align: justify;
+  background-color: black;
+  margin-top: 0px;
+}
+img {
+  padding-bottom: 10px;
+  margin: 0px 10px 10px 10px; 
+}
+
+.testbackground { 
+  background-image: url(..images/testimonial_bg.jpg);
 }
